@@ -9,6 +9,11 @@ body{
     margin:0;
     padding:0;
     overflow: hidden;
+    min-height: 100vh;
+    background: #242424;
+    background: radial-gradient(#313131, #0b0b0b);
+    font-family:"Inter";
+    color:white;
 }
 #ghost{
     position:absolute;
@@ -16,8 +21,8 @@ body{
     left:0;
     width:100%;
     height:100%;
-    background: #242424;
-    background: radial-gradient(#313131, #0b0b0b);
+    background:url('bg.svg') center;
+    background-size: cover;
 }
 
 .video{
@@ -29,10 +34,8 @@ body{
     left:0;
     right:0;
     bottom:0;
-    font-family:"Inter";
     padding:1rem;
     text-align: center;
-    color:white;
 }
 .title{
     font-size:1.2rem;
